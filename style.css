@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    padding: 0 50px;
+    background-color: rgb(144, 178, 207);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+ .nav-element a:hover{
+    color: aqua;
+}
+
+.navbar .logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-element ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+button {
+    background-color: rgb(154, 133, 154);
+    border: none;
+    color:black;
+    padding: 10px 15px;
+    border-radius: 76px;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+.fa-instagram {
+    font-size: 25px;
+}
+
+.fa-instagram:hover {
+    color: aqua;
+    cursor: pointer;
+}
+.hero-section{
+    display: flex;
+    flex: 1;
+   overflow: hidden;
+}
+.img-section{
+    flex: 1;
+}
+.img-section img{
+    height: 110%;
+    width: 100%;
+}
+.text-section{
+    background-color: pink;
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-direction: column;
+}
+.about-section{
+    height:100vh;
+    display:flex;
+    overflow:hidden;
+    background-color:pink;
+    color:black;
+}
+.about-me-section{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 80px;
+    text-align:justify;
+}
+.about-me-section h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.about-me-section p{
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 1.9;
+
+}
+.skill-section{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.skill-section h1{
+    font-size:48px;
+    margin-bottom:25px;
+}
+.my-skills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    width: 100px;
+    list-style: none ;
+
+}
+.my-skills li{
+    background-color: palevioletred;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.my-skills li:hover{
+    background-color: palevioletred;
+    transform:translate(-5px) ;
+}

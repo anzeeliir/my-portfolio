@@ -1,31 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="main-container">
+
+    <div class="main-container" id="home">
         <div class="navbar">
-            <div class="logo">ANZEELIIR</div>
+            <a href="#">
+                <div class="logo">ANZEELIIR</div>
+            </a>
+
             <div class="nav-element">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contant</li>
-
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-            <div class="cta-section">
 
-                <button>hello</button>
-                <i class="fa-brands fa-instagram"></i>
+            <div class="cta-section">
+                <button>test</button>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
-        <div class="hlo cta-section"></div>
+
+        <div class="hero-section">
+            <div class="img-section">
+                <img src="assets/anzeeliir.jpeg" alt="my-image">
+            </div>
+
+            <div class="text-section">
+                <h1>hey<br>its me anzee.</h1>
+                <h2>im fullstack developer.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quos minus necessitatibus est inventore
+                    porro sunt, eum suscipit vel voluptates consequuntur quidem quibusdam, distinctio, error blanditiis
+                    sapiente ea? Quos, animi?</p>
+                <button>read more</button>
+            </div>
+        </div>
     </div>
-    
+
+    <div class="about-section" id="#about">
+        <div class="about-me-section">
+            <h1>About Me</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, voluptatem repudiandae? Debitis esse
+                commodi minima fugit temporibus maiores excepturi odit reiciendis adipisci tenetur velit, reprehenderit
+                numquam, laboriosam expedita tempore porro.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores facere dicta assumenda ratione molestias quo sunt illum nostrum voluptates nemo! Velit error in pariatur possimus odio repellendus vitae quia modi!</p>
+        </div>
+        <div class="skill-section">
+            <h1>My-Skills</h1>
+            <ul class="my-skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>Typescript</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+            </ul>
+
+
+        </div>
+    </div>
 </body>
+
 </html>
